@@ -1,0 +1,6 @@
+flask
+python-dotenv
+langchain-huggingface
+langchain-core
+pytesseract
+Pillow
