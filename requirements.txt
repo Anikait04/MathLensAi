@@ -4,3 +4,4 @@ langchain-huggingface
 langchain-core
 pytesseract
 Pillow
+gunicorn
