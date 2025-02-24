@@ -24,7 +24,7 @@ def chat():
         image_path = save_user_image(image)
         response = get_ai_response(image_path)
         return jsonify({"response": response})
-    except Exception as e:a
+    except Exception as e:
         return jsonify({"error": str(e)}), 500
  
 if __name__ == "__main__":
